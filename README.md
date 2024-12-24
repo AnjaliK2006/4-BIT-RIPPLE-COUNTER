@@ -30,11 +30,18 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 /* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
 
- Developed by: RegisterNumber:
+ Developed by: Anjali K
+ RegisterNumber: 24900073
+
+ ![Screenshot 2024-12-24 154539](https://github.com/user-attachments/assets/375191d9-335d-4374-adeb-016bb4133398)
+
 */
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
+![Screenshot 2024-12-24 154513](https://github.com/user-attachments/assets/2f7fcd58-5691-42fe-97a7-2a3e8664a7b1)
 
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
+![Screenshot 2024-12-24 154737](https://github.com/user-attachments/assets/a8d1e7b0-cf93-49bb-8485-662e820df2c4)
 
 **RESULTS**
+ The 4-bit ripple counter was successfully implemented using Verilog in Quartus Prime. The functionality was verified using a testbench, which simulated the counter's operation. The counter correctly counted from 0000 to 1111, incrementing by 1 on each clock pulse. After reaching 1111, the counter reset to 0000, as expected. The timing diagrams and the functional table showed that the ripple counter operated as intended, with each flip-flop toggling on the rising edge of the previous flip-flop's output. The simulation results confirmed the correct operation of the 4-bit ripple counter.
